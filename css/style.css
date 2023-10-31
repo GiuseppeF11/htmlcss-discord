@@ -14,12 +14,6 @@ html {
     font-family:Arial, Helvetica, sans-serif
 }
 
-.container {
-    max-width: 1200px;
-    min-height: 500px;
-    margin: 0 auto;
-}
-
 .white-h1 {
     font-size: 50px;
     color: whitesmoke;
@@ -54,11 +48,22 @@ a {
 
 .purple {
     color: whitesmoke;
-    background-color: rgb(116, 75, 229);
+    background-color:#7289DA;
 }
 
 .example-img {
     height: 120%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 0;
+    font-size: smaller;
+    color: whitesmoke;
+    margin: 2px 3px;
 }
 /* 
     HEADER
@@ -209,53 +214,70 @@ h2,p {
 */
 
 .footer {
-    background-color: rgb(63, 63, 63);
-    padding-top: 20px;
+    background-color:#23272A;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 
 .row-top-footer {
     width: 75%;
     height: 400px;
-    background-color: #ADD8E6;
     margin: 0 auto;
-    border: 2px dashed black;
     display: flex;
 }
 
 .col-1-footer-top {
     width: calc((100% / 6) * 2);
     height: 100%;
-    background-color: coral;
-    border: 2px dashed black;
+    padding: 0 100px;
+    
+}
+
+.col-1-footer-top h2 {
+    color: #7289DA;
+}
+
+.col-1-footer-top p {
+    color: whitesmoke;
+}
+
+.col-1-footer-top img{
+    width: 20px;
+}
+
+.fa-brands {
+    color: whitesmoke;
+    padding-right: 20px;
+}
+
+.type-info {
+    color:#7289DA;
+    font-size: smaller;
+    font-weight: bold;
 }
 
 .col-2-footer-top {
     width: calc(100% /6);
     height: 100%;
-    background-color: rgb(77, 223, 223);
-    border: 2px dashed white;
 }
 
 hr {
-    margin: 20px 0;
-    height: 3px;
-    background-color: white;
+    width: 75%;
+    margin: 20px auto;
+    height: 1px;
+    border-color:#7289DA;
 }
 
 .row-bottom-footer {
     width: 75%;
-    height: 40px;
-    background-color: aquamarine;
+    height: 100px;
     margin: 0 auto;
-    border: 2px dashed black;
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-between;
+    align-items: flex-start;
+
 }
 
-.bottone {
-    padding: 5px;
-    margin: 0 5px;
-    background-color: lightcoral;
+.row-bottom-footer .button {
+    margin: 0;
 }
