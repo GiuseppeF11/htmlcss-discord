@@ -10,8 +10,8 @@
 /* 
     GENERAL
 */
-html {
-    font-family:Arial, Helvetica, sans-serif
+body {
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .white-h1 {
@@ -49,6 +49,14 @@ a {
 .purple {
     color: whitesmoke;
     background-color:#7289DA;
+}
+
+.text-purple {
+    color:#7289DA;
+}
+
+.text-white {
+    color: whitesmoke;
 }
 
 .example-img {
@@ -108,7 +116,6 @@ li {
 
 .link a {
     padding: 0 30px;
-    color: whitesmoke;
 }
 
 .link li {
@@ -170,7 +177,6 @@ h2,p {
     padding-bottom: 20px;
 }
 
-
 .regular {
     background-color: white;
 }
@@ -178,7 +184,7 @@ h2,p {
 /* MODULO CHIARO */
 
 .reverse {
-    background-color: rgb(207, 207, 207);
+    background-color: #F6F6F6;
     flex-direction: row-reverse;
 }
 
@@ -191,7 +197,7 @@ h2,p {
     margin: 0 auto;
 }
 .big-box {
-    background-color:rgb(207, 207, 207) ;
+    background-color:#F6F6F6 ;
     min-height: 700px;
     text-align: center;
 }
@@ -206,8 +212,6 @@ h2,p {
     background-size: contain;
     padding: 30px;
 }
-
-
 
 /*
     FOOTER
@@ -230,15 +234,6 @@ h2,p {
     width: calc((100% / 6) * 2);
     height: 100%;
     padding: 0 100px;
-    
-}
-
-.col-1-footer-top h2 {
-    color: #7289DA;
-}
-
-.col-1-footer-top p {
-    color: whitesmoke;
 }
 
 .col-1-footer-top img{
@@ -246,12 +241,10 @@ h2,p {
 }
 
 .fa-brands {
-    color: whitesmoke;
     padding-right: 20px;
 }
 
 .type-info {
-    color:#7289DA;
     font-size: smaller;
     font-weight: bold;
 }
@@ -275,7 +268,6 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 
 .row-bottom-footer .button {
