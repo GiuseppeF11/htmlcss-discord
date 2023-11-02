@@ -23,6 +23,10 @@ body {
     color: whitesmoke;
 }
 
+p {
+    line-height: 30px;
+}
+
 a {
     text-decoration: none;
 }
@@ -100,6 +104,7 @@ li {
 
 .logo {
     text-align: left;
+    margin-left: 40px;
     width: 20%;
 }
 
@@ -111,11 +116,13 @@ li {
 
 .login {
     text-align: end;
+    margin-right: 40px;
     width: 20%;
 }
 
 .link a {
-    padding: 0 30px;
+    padding: 0 10px;
+    margin: 0 40px;
 }
 
 .link li {
@@ -130,6 +137,7 @@ li {
     min-height: 500px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-color: #255EE9;
     text-align: center;
 }
 
@@ -161,11 +169,10 @@ li {
 }
 
 .box-img {
-    height: 300px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .box-text {
@@ -203,14 +210,16 @@ h2,p {
 }
 
 .container-bottom-big-box {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 #ready {
     display: inline-block;
     background-image: url(../img/stars.svg);
-    background-size: contain;
-    padding: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 20px 60px;
 }
 
 /*
@@ -228,6 +237,7 @@ h2,p {
     height: 400px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 50px;
 }
 
 .col-1-footer-top {
@@ -256,7 +266,7 @@ h2,p {
 
 hr {
     width: 75%;
-    margin: 20px auto;
+    margin: 50px auto;
     height: 1px;
     border-color:#7289DA;
 }
